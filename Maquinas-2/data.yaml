@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['1500b', '1500p', '15lx', '770b', '770p', 'encl1500', 'encl770', 'flood', 'stnd770']
+
+roboflow:
+  workspace: violetas-workspace-pv4ie
+  project: maquinas-jv7qy
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/violetas-workspace-pv4ie/maquinas-jv7qy/dataset/2
